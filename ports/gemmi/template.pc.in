@@ -1,0 +1,7 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+includedir=${prefix}/include
+
+Name: @PACKAGE_NAME@
+Description: @PACKAGE_DESCRIPTION@
+Version: @PACKAGE_VERSION@
+Cflags: -I${includedir}

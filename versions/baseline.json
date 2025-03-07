@@ -1,3 +1,8 @@
 {
-    "default": {}
+    "default": {
+        "gemmi": {
+            "baseline": "0.7.0",
+            "port-version": 0
+        }
+    }
 }
