@@ -1,0 +1,6 @@
+{
+    "name": "gemmi",
+    "version": "0.7.0",
+    "description": "Macromolecular crystallography library and utilities",
+    "homepage": "https://github.com/project-gemmi/gemmi"
+}
