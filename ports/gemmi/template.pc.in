@@ -1,7 +1,9 @@
 prefix=@CMAKE_INSTALL_PREFIX@
 includedir=${prefix}/include
+libdir=${prefix}/lib
 
 Name: @PACKAGE_NAME@
 Description: @PACKAGE_DESCRIPTION@
 Version: @PACKAGE_VERSION@
 Cflags: -I${includedir}
+Libs: -L${libdir} -lgemmi_cpp
